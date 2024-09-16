@@ -20,7 +20,7 @@ fetch(url)
             div.appendChild(img)
 
             let price = document.createElement('h4')
-            price.innerText = element.price
+            price.innerText = element.price+'$'
             div.appendChild(price)
 
             div.classList.add('col');
